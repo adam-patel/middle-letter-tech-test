@@ -6,4 +6,8 @@ describe "#middleletter method" do
     expect(middleletter("cat")).to eq("a")
   end
 
+  it 'if word contains 5 letters, return letter 3' do
+    expect(middleletter("drive")).to eq("i")
+  end
+
 end
