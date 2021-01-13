@@ -1,4 +1,4 @@
-require 'middleletter'
+require 'middleletter.rb'
 
 describe "#middleletter method" do
 
